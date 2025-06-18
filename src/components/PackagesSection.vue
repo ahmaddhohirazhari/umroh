@@ -179,9 +179,9 @@ const filteredPackages = computed(() => {
   return store.packages.filter((pkg) => pkg.type === selectedType.value);
 });
 
-const getPackageImage = (type: 'umroh' | 'haji') => {
-  return type === 'umroh'
-    ? 'https://images.pexels.com/photos/8142095/pexels-photo-8142095.jpeg?auto=compress&cs=tinysrgb&w=800'
-    : 'https://images.pexels.com/photos/8142098/pexels-photo-8142098.jpeg?auto=compress&cs=tinysrgb&w=800';
-};
+// const getPackageImage = (type: 'umroh' | 'haji') => {
+//   return type === 'umroh'
+//     ? 'https://images.pexels.com/photos/8142095/pexels-photo-8142095.jpeg?auto=compress&cs=tinysrgb&w=800'
+//     : 'https://images.pexels.com/photos/8142098/pexels-photo-8142098.jpeg?auto=compress&cs=tinysrgb&w=800';
+// };
 </script>
